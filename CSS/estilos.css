@@ -1,0 +1,141 @@
+/*
+**** Limpar padrões ****
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+**** Formatações gerais ****
+*/
+
+h1 {
+	font-size: 2.5em;
+	color: #4E4E4E;
+}
+
+h2 {
+	color: #F7B600;
+	font-size: 1.5em;
+}
+
+h3 {
+	background: #CCCCCC;
+	color: #565656;
+	padding: 5px;
+}
+
+/*
+**** Formatações de links
+*/
+
+a:link, a:visited {
+	color: #F7B600;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#menu a:link, #menu a:visited {
+	color: #fff;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #F7B600;
+	background: #fff;
+}
+
+/*
+**** Layout ****
+*/
+
+#cabecalho {
+	background: #F7B600;
+	text-align: center;
+	padding: 15px;
+}
+
+#logo {
+	padding: 10px;
+}
+
+#menu {
+	padding: 10px;
+}
+
+.branco {
+	color: #fff;
+}
+
+/*
+**** Area principal ****
+*/
+
+#area-principal {
+	width: 920px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#area-centro {
+	float: left;
+	width: 660px;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.noticias {
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+/*
+**** Area Lateral ****
+*/
+
+#area-lateral {
+	float: right;
+	width: 240px;
+}
+
+.conteudo-lateral {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+/*
+**** Rodapé ****
+*/
+
+#rodape {
+	clear: both;
+	text-align: center;
+	background: #CCCCCC;
+	padding: 10px;
+}
